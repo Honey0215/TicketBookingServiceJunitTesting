@@ -8,7 +8,7 @@ pipeline {
                // bat "mvn clean -f TicketBookingServiceJunitTesting"
                 
               // ssh "rmdir  -rf TicketBookingServiceJunitTesting"
-               ssh  "git clone https://github.com/kishancs2020/TicketBookingServiceJunitTesting.git"
+               ssh  "git clone https://github.com/Honey0215/TicketBookingServiceJunitTesting.git"
                ssh "mvn clean -f TicketBookingServiceJunitTesting"
             }
         }
